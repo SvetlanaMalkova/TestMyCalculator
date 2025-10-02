@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MyCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите выражение (например: 1 + 3): ");
+        System.out.print("Введите выражение (например: 2 + 3): ");
         String input = scanner.nextLine();
 
         String result = calc(input);
